@@ -5,10 +5,10 @@ namespace EmployeeSystem
 {
    
    
-    public delegate void exDelegate(Employee employee, int itr);
-    class exceptions : Exception
+    public delegate void Del(Employee employee, int itr);
+    class Empty_Exceptions : Exception
     {
-        public exceptions(string message) : base(message)
+        public Empty_Exceptions(string message) : base(message)
         {
 
         }
@@ -28,35 +28,34 @@ namespace EmployeeSystem
             try
             {
                 this.qualification = Console.ReadLine();
-
+                if (qualification == "BCA" || qualification == "BSC" || qualification == "BE")
+                {
+                    this.accountType = "IT Department";
+                }
+                else if (qualification == "BCOM" || qualification == "BSC" || qualification == "CA")
+                {
+                    this.accountType = "Accounts Department";
+                }
                 if (string.IsNullOrEmpty(qualification))
                 {
-                    throw new exceptions("Please enter qualification");
+                    throw new Empty_Exceptions("Please enter qualification");
                 }
                 else
                 {
                     Console.WriteLine(this.name + " id: " + this.id + " succesfully added under " + this.accountType);
                 }
-                if (qualification == "BCA" || qualification == "BSC" || qualification == "BCA")
-                {
-                    this.accountType = "IT Department";
-                }
-                else if (qualification == "BCA" || qualification == "BSC" || qualification == "BCA")
-                {
-                    this.accountType = "Accounts Department";
-                }
             }
-            catch (exceptions E)
+            catch (Empty_Exceptions empty)
             {
-              //  Console.WriteLine("working");
-                Console.WriteLine(E.Message);
+                Console.WriteLine("working");
+                Console.WriteLine(empty.Message);
 
                 if (!File.Exists(directory))
                 {
                     // Create a file to write to.
                     using (StreamWriter writer = File.AppendText(directory))
                     {
-                        writer.WriteLine("Message ex.StackTrace +"+E.StackTrace);
+                        writer.WriteLine("Message ex.StackTrace +"+empty.StackTrace);
                     }
                 }
             }
