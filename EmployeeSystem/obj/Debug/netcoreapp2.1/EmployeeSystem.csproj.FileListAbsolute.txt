@@ -1,0 +1,11 @@
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/obj/Debug/netcoreapp2.1/EmployeeSystem.csprojResolveAssemblyReference.cache
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/obj/Debug/netcoreapp2.1/EmployeeSystem.csproj.CoreCompileInputs.cache
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/obj/Debug/netcoreapp2.1/EmployeeSystem.AssemblyInfoInputs.cache
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/obj/Debug/netcoreapp2.1/EmployeeSystem.AssemblyInfo.cs
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/bin/Debug/netcoreapp2.1/EmployeeSystem.deps.json
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/bin/Debug/netcoreapp2.1/EmployeeSystem.runtimeconfig.json
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/bin/Debug/netcoreapp2.1/EmployeeSystem.runtimeconfig.dev.json
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/bin/Debug/netcoreapp2.1/EmployeeSystem.dll
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/bin/Debug/netcoreapp2.1/EmployeeSystem.pdb
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/obj/Debug/netcoreapp2.1/EmployeeSystem.dll
+/Users/rajpreet/Documents/EmployeeSystem/EmployeeSystem/obj/Debug/netcoreapp2.1/EmployeeSystem.pdb
